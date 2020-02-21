@@ -1,0 +1,52 @@
+@media (max-width: 760px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .header-wrapper {
+        border: 1px dashed white;
+    }
+
+    .menu {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    .myimg {
+        height: 20vh;
+    }
+
+    .greeting-container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 1vw;
+        border: 1px dashed black;
+        font-size: 1em;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    
+    .job-heading {
+        font-size: 1em;
+        margin-top: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .introduction {
+        font-size: 1em;
+        text-align: center;
+        margin: 0 5%;
+    }
+
+   
+
+}
