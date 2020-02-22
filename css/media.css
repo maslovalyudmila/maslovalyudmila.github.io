@@ -1,7 +1,8 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     body {
         font-size: 14px;
+        font-weight: 500;
     }
 
     .menu {
@@ -41,7 +42,13 @@
         text-align: center;
         margin: 0 5%;
     }
-
-   
+    
+    .features {
+        margin: 0;
+    }
+    
+    .article {
+        margin: 1%;
+    }
 
 }
