@@ -17,7 +17,7 @@ body, html {
     background-position: center;
     margin: 0 auto;
     height: 100vh;
-    min-height: 50vh;
+    max-height: 50vh;
     width: 100%;
 }
 
@@ -25,7 +25,7 @@ body, html {
     margin: 0 auto;
     background-color: rgba(255,255,255, 0.3);
     height: 100vh;
-    min-height: 50vh;
+    max-height: 50vh;
     width: 100%;
 }
 
@@ -92,7 +92,7 @@ h1 {
 .features {
     background-color: #ffffff;
     padding: 1%;
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 .article {
