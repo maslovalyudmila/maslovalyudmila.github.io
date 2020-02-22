@@ -9,10 +9,10 @@
         flex-flow: column;
         align-items: center;
         font-size: 1em;
+        margin-bottom: 20%;
     }
 
     .myimg {
-        margin: 20%;
         height: 20vh;
     }
 
