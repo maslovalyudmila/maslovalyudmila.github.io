@@ -1,0 +1,187 @@
+/* GLOBAL STYLES */
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: #242424;
+    font-size: 16px;
+}
+
+
+/* HEADER STYLES */
+
+.header-wrapper {
+    background-image: url("file:///C:/Users/Людмила/Documents/portfolio/img/header-wrapper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-rgba {
+    margin: 0 auto;
+    background-color: rgba(255,255,255, 0.3);
+    height: 100vh;
+    width: 100%;
+}
+
+.menu {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    list-style: none;
+}
+
+.menu-item {
+    font-size: 1.125em;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+.header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: rgba(0, 0, 0, .2);
+}
+
+.greeting-container {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5%;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 3.125em;
+}
+
+.job-heading {
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introduction {
+    font-size: 1.125em;
+    font-weight: 600;
+    text-align: center;
+    margin: 1% 15%;
+}
+
+/* MAIN STYLES */
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.features {
+    background-color: #ffffff;
+    padding: 1%;
+    margin: 0 15%;
+}
+
+.article {
+    background-color: #ededed;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 3.5vh;
+    color: #404a51;
+    margin: 7%;
+    padding: 5%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    /*text-shadow: 0px 0px 1px silver;*/
+    border-radius: 10px;
+}
+
+.main-heading {
+    font-size: 1.562em;
+    text-align: center;
+    text-shadow: 0px 0px 1px silver;
+    text-transform: uppercase;
+}
+
+/* SKILLS FEATURES STYLES */
+
+.container {
+    height: 30px;
+    width: 400px;
+    max-width: 80%;
+    background-color: #d1d5d7;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.comments {
+    font-size: 14px;
+}
+
+.progress-level {
+    margin-left: auto;
+    padding: 1%;
+    color: #000000;
+}
+
+.html {height: 30px; width: 80%; background-color: #b4b9bd;}
+.css {height: 30px; width: 70%; background-color: #b4b9bd;}
+.adaptive-design {height: 30px; width: 50%; background-color: #b4b9bd;}
+.js {height: 30px; width: 20%; background-color: #b4b9bd;}
+.flexbox {height: 30px; width: 60%; background-color: #b4b9bd;}
+.sql {height: 30px; width: 10%; background-color: #b4b9bd;}
+
+.interests {
+    list-style: none;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    width: 100%;
+    margin: 0 15%;
+    font-size: 1em;
+    color: #868282;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-icons {
+    padding: 2%;
+}
+
+.contact-links {
+    margin: 1%;
+    line-height: 0.5em;
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+    
