@@ -51,8 +51,6 @@ body, html {
 }
 
 .greeting-container {
-    margin-top: 5%;
-    margin-bottom: 5%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
